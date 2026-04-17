@@ -18,6 +18,14 @@ El testbench implementa un escenario de simulación en **loopback (RX → TX)** 
 *   **`tx_txdata_sim.hex`**: Vector de prueba con tráfico 3G-SDI real.
 *   **`vunit_out/`**: Directorio generado automáticamente con logs y resultados de simulación.
 
+
+## ⚙️ Ejecución de la Simulación
+Para lanzar el entorno de verificación y generar los archivos de salida, ejecuta el siguiente comando en la raíz del proyecto:
+
+```bash
+python3 run_tb_environment.py
+
+
 ## 🖼️ Post-procesamiento y Visualización
 Para facilitar la verificación visual, el proyecto incluye el script **`sdi_image_rec_3g_sdi.py`**. Este procesa los ficheros `.hex` (muestras de luminancia y crominancia) y **reconstruye la imagen original** capturada.
 
@@ -30,10 +38,14 @@ python3 sdi_image_rec_3g_sdi.py \
   --c-file vunit_out/test_output/sdi.tb_environment.loopback_3g.loopback_3g_d58718e24db367d69b3332b7664ade57702f2cc7/out_rx_c.hex \
   --output rx_del_loopback.png
 
+**2. Reconstrucción de diagnósticos internos (TX):**
+
 python3 sdi_image_rec_3g_sdi.py \
  --y-file vunit_out/test_output/sdi.tb_environment.loopback_3g.loopback_3g_d58718e24db367d69b3332b7664ade57702f2cc7/out_tx_ds1a_diag.hex \
  --c-file vunit_out/test_output/sdi.tb_environment.loopback_3g.loopback_3g_d58718e24db367d69b3332b7664ade57702f2cc7/out_tx_ds2a_diag.hex \
  --output diag_del_loopback.png
+
+**3. Reconstrucción del bloque de validación final:**
 
 python3 sdi_image_rec_3g_sdi.py \
   --y-file vunit_out/test_output/sdi.tb_environment.loopback_3g.loopback_3g_d58718e24db367d69b3332b7664ade57702f2cc7/out_validation_rx_y.hex \
