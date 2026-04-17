@@ -1,0 +1,108 @@
+# do /home/usuario/Escritorio/trabajo_del_equipo/python/venv/lib/python3.12/site-packages/vunit/sim_if/tcl_read_eval_loop.tcl
+# vsim -modelsimini /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/environment/vunit_out/modelsim/modelsim.ini -wlf /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/environment/vunit_out/test_output/sdi.tb_environment.loopback_3g.loopback_3g_d58718e24db367d69b3332b7664ade57702f2cc7/modelsim/vsim.wlf -quiet -t ps -onfinish stop sdi.tb_environment -L vunit_lib -L sdi -g/tb_environment/g_out_validation_y=out_validation_rx_y.hex -g/tb_environment/g_out_diag2=out_tx_ds2a_diag.hex -g/tb_environment/g_out_c=out_rx_c.hex -g/tb_environment/g_txdata=/home/usuario/Escritorio/trabajo_del_equipo/python/verilog/environment/tx_txdata_sim.hex -g/tb_environment/runner_cfg="active python runner : true,enabled_test_cases : loopback_3g,output path : /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/environment/vunit_out/test_output/sdi.tb_environment.loopback_3g.loopback_3g_d58718e24db367d69b3332b7664ade57702f2cc7/,tb path : /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/environment/,use_color : true" -g/tb_environment/output_path=/home/usuario/Escritorio/trabajo_del_equipo/python/verilog/environment/vunit_out/test_output/sdi.tb_environment.loopback_3g.loopback_3g_d58718e24db367d69b3332b7664ade57702f2cc7/ -g/tb_environment/g_out_tx=out_tx_environment.hex -g/tb_environment/g_out_validation_c=out_validation_rx_c.hex -g/tb_environment/g_out_y=out_rx_y.hex -g/tb_environment/g_out_diag1=out_tx_ds1a_diag.hex 
+# Start time: 12:42:59 on Apr 16,2026
+# ** Warning: (vsim-3015) [PCDPC] - Port size (11) does not match connection size (32) for port 'tx_vpid_line_f1'. The port definition is at: /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/v_smpte_sdi_v3_0_vl_rfs.v(11918).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_environment/dut File: /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/environment/tb_environment.sv Line: 104
+# [TB] === Frame 0 inicio ===
+# [TB] frame=0 word=0 rx_mode_locked: 0 -> 1
+# [TB] f=0 w=0  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=1  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=2  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=3  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=4  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=5  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=6  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=7  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=8  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=9  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=10  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=11  rx_in=b3e00  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=12  rx_in=8b751  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=13  rx_in=a8de7  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=14  rx_in=e8fc4  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=15  rx_in=9ae4c  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=16  rx_in=6cfe6  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=17  rx_in=3dc54  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=18  rx_in=439fc  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=19  rx_in=b8d6f  ds1a=000  ds2a=000  ln_a=0000  tx_y=000  tx_c=000  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=20  rx_in=747a6  ds1a=0X0  ds2a=X00  ln_a=0000  tx_y=0X0  tx_c=X00  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=21  rx_in=27626  ds1a=0X0  ds2a=X00  ln_a=0000  tx_y=0X0  tx_c=X00  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=22  rx_in=78b0a  ds1a=040  ds2a=XX0  ln_a=0000  tx_y=040  tx_c=XX0  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=23  rx_in=e253e  ds1a=040  ds2a=XX0  ln_a=0000  tx_y=040  tx_c=XX0  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=24  rx_in=3d4d8  ds1a=040  ds2a=XX0  ln_a=0000  tx_y=040  tx_c=XX0  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=25  rx_in=8bfdd  ds1a=040  ds2a=XX0  ln_a=0000  tx_y=040  tx_c=XX0  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=26  rx_in=60bc6  ds1a=040  ds2a=XX0  ln_a=0000  tx_y=040  tx_c=XX0  txdata=00000  diag=000  lock=1
+# [TB] f=0 w=27  rx_in=3096d  ds1a=040  ds2a=XX0  ln_a=0000  tx_y=040  tx_c=XX0  txdata=00000  diag=0X0  lock=1
+# [TB] f=0 w=28  rx_in=de087  ds1a=040  ds2a=XX0  ln_a=0000  tx_y=040  tx_c=XX0  txdata=00000  diag=0X0  lock=1
+# [TB] f=0 w=29  rx_in=95947  ds1a=040  ds2a=XX0  ln_a=0000  tx_y=040  tx_c=XX0  txdata=00000  diag=040  lock=1
+# [TB] === Frame 1 inicio ===
+# [TB] tx_rst liberado al inicio de frame 1
+# [TB] f=1 w=0  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=1  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=2  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=3  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=4  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=5  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=6  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=7  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=8  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=9  rx_in=00000  ds1a=000  ds2a=22c  ln_a=0465  tx_y=000  tx_c=22c  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=10  rx_in=00000  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=11  rx_in=b3e00  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=12  rx_in=8b751  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=13  rx_in=a8de7  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=14  rx_in=e8fc4  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=15  rx_in=9ae4c  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=16  rx_in=6cfe6  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=17  rx_in=3dc54  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=18  rx_in=439fc  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=19  rx_in=b8d6f  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=20  rx_in=747a6  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=21  rx_in=27626  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=22  rx_in=78b0a  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=23  rx_in=e253e  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=24  rx_in=3d4d8  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=25  rx_in=8bfdd  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=26  rx_in=60bc6  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=1 w=27  rx_in=3096d  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=28  rx_in=de087  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=1 w=29  rx_in=95947  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] === Frame 2 inicio ===
+# [TB] f=2 w=0  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=1  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=2  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=3  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=4  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=5  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=6  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=7  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=8  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=9  rx_in=00000  ds1a=000  ds2a=22c  ln_a=0465  tx_y=000  tx_c=22c  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=10  rx_in=00000  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=11  rx_in=b3e00  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=12  rx_in=8b751  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=13  rx_in=a8de7  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=14  rx_in=e8fc4  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=15  rx_in=9ae4c  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=16  rx_in=6cfe6  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=17  rx_in=3dc54  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=18  rx_in=439fc  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=19  rx_in=b8d6f  ds1a=000  ds2a=000  ln_a=0465  tx_y=000  tx_c=000  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=20  rx_in=747a6  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=21  rx_in=27626  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=22  rx_in=78b0a  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=23  rx_in=e253e  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=24  rx_in=3d4d8  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=25  rx_in=8bfdd  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=26  rx_in=60bc6  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=000  lock=1
+# [TB] f=2 w=27  rx_in=3096d  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=28  rx_in=de087  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] f=2 w=29  rx_in=95947  ds1a=040  ds2a=200  ln_a=0465  tx_y=040  tx_c=200  txdata=xxxxx  diag=040  lock=1
+# [TB] Palabras capturadas: 2475000
+# [TB] Errores CRC en RX:   2200
+# [TB] rx_mode_locked:      1
+# [TB] WARNING: 2200 errores CRC (discontinuidad al reiniciar fichero)
+# Break in Function vunit_pkg/test_runner::cleanup at /home/usuario/Escritorio/trabajo_del_equipo/python/venv/lib/python3.12/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# Stopped at /home/usuario/Escritorio/trabajo_del_equipo/python/venv/lib/python3.12/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# End time: 12:56:25 on Apr 16,2026, Elapsed time: 0:13:26
+# Errors: 0, Warnings: 1

@@ -1,0 +1,105 @@
+# do /home/usuario/Escritorio/trabajo_del_equipo/python/venv/lib/python3.12/site-packages/vunit/sim_if/tcl_read_eval_loop.tcl
+# vsim -modelsimini /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/rx_fromtxdata/vunit_out/modelsim/modelsim.ini -wlf /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/rx_fromtxdata/vunit_out/test_output/sdi.tb_rx.rx_decode.rx_decode_efd812f61e5504cf52bc988df30c790b46657922/modelsim/vsim.wlf -quiet -t ps -onfinish stop sdi.tb_rx -L vunit_lib -L sdi -g/tb_rx/g_out_c=out_rx_c.hex -g/tb_rx/g_txdata=/home/usuario/Escritorio/trabajo_del_equipo/python/verilog/rx_fromtxdata/tx_txdata_sim.hex -g/tb_rx/runner_cfg="active python runner : true,enabled_test_cases : rx_decode,output path : /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/rx_fromtxdata/vunit_out/test_output/sdi.tb_rx.rx_decode.rx_decode_efd812f61e5504cf52bc988df30c790b46657922/,tb path : /home/usuario/Escritorio/trabajo_del_equipo/python/verilog/rx_fromtxdata/,use_color : true" -g/tb_rx/output_path=/home/usuario/Escritorio/trabajo_del_equipo/python/verilog/rx_fromtxdata/vunit_out/test_output/sdi.tb_rx.rx_decode.rx_decode_efd812f61e5504cf52bc988df30c790b46657922/ -g/tb_rx/g_out_y=out_rx_y.hex 
+# Start time: 11:52:02 on Apr 16,2026
+# [TB] === Frame 0 inicio ===
+# [TB] frame=0 word=0 rx_mode_locked: 0 -> 1
+# [TB] f=0 w=0  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=1  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=2  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=3  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=4  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=5  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=6  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=7  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=8  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=9  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=10  rx_in=00000  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=11  rx_in=b3e00  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=12  rx_in=8b751  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=13  rx_in=a8de7  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=14  rx_in=e8fc4  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=15  rx_in=9ae4c  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=16  rx_in=6cfe6  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=17  rx_in=3dc54  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=18  rx_in=439fc  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=19  rx_in=b8d6f  ds1a=000  ds2a=000  ln_a=0000  lock=1
+# [TB] f=0 w=20  rx_in=747a6  ds1a=0X0  ds2a=X00  ln_a=0000  lock=1
+# [TB] f=0 w=21  rx_in=27626  ds1a=0X0  ds2a=X00  ln_a=0000  lock=1
+# [TB] f=0 w=22  rx_in=78b0a  ds1a=040  ds2a=XX0  ln_a=0000  lock=1
+# [TB] f=0 w=23  rx_in=e253e  ds1a=040  ds2a=XX0  ln_a=0000  lock=1
+# [TB] f=0 w=24  rx_in=3d4d8  ds1a=040  ds2a=XX0  ln_a=0000  lock=1
+# [TB] f=0 w=25  rx_in=8bfdd  ds1a=040  ds2a=XX0  ln_a=0000  lock=1
+# [TB] f=0 w=26  rx_in=60bc6  ds1a=040  ds2a=XX0  ln_a=0000  lock=1
+# [TB] f=0 w=27  rx_in=3096d  ds1a=040  ds2a=XX0  ln_a=0000  lock=1
+# [TB] f=0 w=28  rx_in=de087  ds1a=040  ds2a=XX0  ln_a=0000  lock=1
+# [TB] f=0 w=29  rx_in=95947  ds1a=040  ds2a=XX0  ln_a=0000  lock=1
+# [TB] === Frame 1 inicio ===
+# [TB] f=1 w=0  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=1  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=2  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=3  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=4  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=5  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=6  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=7  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=8  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=9  rx_in=00000  ds1a=000  ds2a=22c  ln_a=0465  lock=1
+# [TB] f=1 w=10  rx_in=00000  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=11  rx_in=b3e00  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=12  rx_in=8b751  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=13  rx_in=a8de7  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=14  rx_in=e8fc4  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=15  rx_in=9ae4c  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=16  rx_in=6cfe6  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=17  rx_in=3dc54  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=18  rx_in=439fc  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=19  rx_in=b8d6f  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=1 w=20  rx_in=747a6  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=21  rx_in=27626  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=22  rx_in=78b0a  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=23  rx_in=e253e  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=24  rx_in=3d4d8  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=25  rx_in=8bfdd  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=26  rx_in=60bc6  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=27  rx_in=3096d  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=28  rx_in=de087  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=1 w=29  rx_in=95947  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] === Frame 2 inicio ===
+# [TB] f=2 w=0  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=1  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=2  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=3  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=4  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=5  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=6  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=7  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=8  rx_in=00000  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=9  rx_in=00000  ds1a=000  ds2a=22c  ln_a=0465  lock=1
+# [TB] f=2 w=10  rx_in=00000  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=11  rx_in=b3e00  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=12  rx_in=8b751  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=13  rx_in=a8de7  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=14  rx_in=e8fc4  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=15  rx_in=9ae4c  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=16  rx_in=6cfe6  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=17  rx_in=3dc54  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=18  rx_in=439fc  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=19  rx_in=b8d6f  ds1a=000  ds2a=000  ln_a=0465  lock=1
+# [TB] f=2 w=20  rx_in=747a6  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=21  rx_in=27626  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=22  rx_in=78b0a  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=23  rx_in=e253e  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=24  rx_in=3d4d8  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=25  rx_in=8bfdd  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=26  rx_in=60bc6  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=27  rx_in=3096d  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=28  rx_in=de087  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] f=2 w=29  rx_in=95947  ds1a=040  ds2a=200  ln_a=0465  lock=1
+# [TB] Palabras capturadas: 2475000
+# [TB] Errores CRC en RX:   2200
+# [TB] rx_mode_locked:      1
+# [TB] WARNING: 2200 errores CRC (discontinuidad al reiniciar fichero)
+# Break in Function vunit_pkg/test_runner::cleanup at /home/usuario/Escritorio/trabajo_del_equipo/python/venv/lib/python3.12/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# Stopped at /home/usuario/Escritorio/trabajo_del_equipo/python/venv/lib/python3.12/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# End time: 11:57:34 on Apr 16,2026, Elapsed time: 0:05:32
+# Errors: 0, Warnings: 0
