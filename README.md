@@ -24,7 +24,7 @@ Para lanzar el entorno de verificación y generar los archivos de salida, ejecut
 
 ```bash
 python3 run_tb_environment.py
-
+```
 
 ## 🖼️ Post-procesamiento y Visualización
 Para facilitar la verificación visual, el proyecto incluye el script **`sdi_image_rec_3g_sdi.py`**. Este procesa los ficheros `.hex` (muestras de luminancia y crominancia) y **reconstruye la imagen original** capturada.
